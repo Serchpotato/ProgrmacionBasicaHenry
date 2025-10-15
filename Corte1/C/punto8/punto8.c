@@ -7,7 +7,7 @@ int main (){
 	printf("Digite el año\n");
 	scanf(" %d", &anio);
 	
-	if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0))// revisa el año es bisiesto (si el año dividido en 4 da residuo 0 es bisiesto o en 400) ! no en 100 y el porcentaje para revisar que el residuo es igual a la condición
+	if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0))
 	{ 
 		printf(" %d es un año bisiesto\n", anio);
 	}
@@ -18,3 +18,4 @@ int main (){
 		scanf(" %c", &nuevo);
 	}while(nuevo == 's'||nuevo == 's');
 }
+
