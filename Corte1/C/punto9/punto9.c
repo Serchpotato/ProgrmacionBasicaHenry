@@ -15,7 +15,7 @@ int main(){
 	scanf(" %d", &mes);
 	
 	
-	if((dia >= 1 && dia <= 31) && (mes >= 1 && mes <= 12))  // determina el rango 	
+	if((dia >= 1 && dia <= 31) && (mes >= 1 && mes <= 12)) 	
 		{
 			
 		if ((dia>=21 && mes ==3 ) || (dia<=20 && mes ==4 ))
@@ -61,5 +61,6 @@ int main(){
 		scanf(" %c", &fecha);
 		
 	} while (fecha == 's' || fecha == 's');
+
 
 }
